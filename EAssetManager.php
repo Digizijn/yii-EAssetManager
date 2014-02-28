@@ -73,10 +73,7 @@ class EAssetManager extends CAssetManager
 
 	// default cache path for EAssetManager. It will be used if Yii caching is not enabled.
 	public $cachePath=null;
-
-	// path and file name of lessc.inc.php . Defaults to ./EAssetManager/cache
-	public $lessLib=null;
-
+	
 	// path to store compiled css files
 	// defaults to 'application.assets.css'
 	// note that this path must be writtable by script (CHMOD 777)
