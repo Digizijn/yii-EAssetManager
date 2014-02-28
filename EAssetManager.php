@@ -104,11 +104,6 @@ class EAssetManager extends CAssetManager
 		}
 		if ($this->lessCompile)
 		{
-			if (!$this->lessLib)
-			{
-				$this->lessLib=dirname(__FILE__).DIRECTORY_SEPARATOR.'EAssetManager'.DIRECTORY_SEPARATOR.'lessc.inc.php';
-			}
-			require_once($this->lessLib);
 			$this->lessCompiledPath=$this->_getPath($this->lessCompiledPath,'application.assets.css');
 		}
 		parent::init();
