@@ -1,0 +1,14 @@
+{
+    "name": "inpassor/yii-eassetManager",
+    "description": "Yii EAsset-manager",
+    "authors": [
+        {
+            "name": "Inpassor"
+        }
+    ],
+    
+    "require" : {
+      "leafo/lessphp" : "0.4.0",
+      "yiisoft/yii": "1.1.14"
+    }
+}
